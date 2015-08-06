@@ -68,7 +68,7 @@ while(True):
 
     if checkMove(playerMove) == False:
         print("Invalid move. Try again.\n")
-        continue;
+        continue
 
     numOfGames += 1
     compMove = randomComputerMove()
