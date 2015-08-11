@@ -19,9 +19,9 @@ def randomComputerMove():
     randomInt = random.randint(1,9)
     if randomInt <= 3:
         return "rock"
-    elif randomInt > 3 and randomInt <= 6:
+    elif randomInt <= 6:
         return "paper"
-    elif randomInt > 6:
+    else:
         return "scissors"
 
 def compareMoves(player, computer):
