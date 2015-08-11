@@ -81,5 +81,5 @@ while(True):
 print("\nThank you for playing!\n")
 
 if numOfGames > 0:
-    print("Game stats: ");
-    displayGameStats();
+    print("Game stats: ")
+    displayGameStats()
